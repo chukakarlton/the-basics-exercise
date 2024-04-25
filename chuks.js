@@ -1,4 +1,4 @@
-/*Ques 1
+//Ques 1
  Define variables for first name and last name
 let firstName = "chuka";
 let lastName = "carlton";
@@ -35,19 +35,19 @@ console.log("Ones place:", onesPlace);           // Output: 6
 
 //question 3
 
-//'true' - //its a string data type, because its enclosed in single quotes
-//false - //its a boolean data type.
-//1.5 - //its a number data type
-//2 - //its a number data type
-//undefined - //it indicates that a variable has been declared but not assigned a value
-//{ foo: 'bar'} - //its an object data type.
+'true' - //its a string data type, because its enclosed in single quotes
+false - //its a boolean data type.
+1.5 - //its a number data type
+2 - //its a number data type
+undefined - //it indicates that a variable has been declared but not assigned a value
+{ foo: 'bar'} - //its an object data type.
 
 //4
 
 
-// 5
-//The code logs '510' instead of 15 is because its a string concatenation
-// '5' is treated as a string
+//question 5
+The code logs '510' instead of 15 is because its a string concatenation
+'5' is treated as a string
 
 console.log(Number('5') + 10);
 // Output: 15
@@ -57,6 +57,15 @@ console.log(Number('5') + 10);
 console.log(`The value of 5 + 10 is ${Number('5') + 10}.`);
 // Output: The value of 5 + 10 is 15.
 
+question 7
+
+let foo = ['a', 'b', 'c'];
+console.log(foo.length);  // Output: 3
+console.log(foo[3]);      // Output: undefined
+//it will output undefined
+
+//question 8
+
 let names = [
     'car',
     'table',
@@ -64,6 +73,9 @@ let names = [
     'house'
 ];
 console.log(names);
+[ 'car', 'table', 'chair', 'house' ]
+
+//Question 9
 
 let pets = {
     'rotweiler': 'dog',
@@ -73,5 +85,17 @@ let pets = {
     'bat': 'lizard'
 };
 console.log(pets);
+
+//question 10
+
+The expression 'foo' === 'Foo' evaluates to false
+
+//question 11
+
+parseInt('3.1415') evaluates 3
+
+//question 12
+
+'12' < '9' evaluates true
 
 
